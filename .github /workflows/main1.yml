@@ -21,6 +21,6 @@ jobs:
 
     - name: Run script
       env:
-        OPENAI_API_KEY: ${{ secrets.chat }}
+        OPENAI_API_KEY: ${{ secrets.CHAT }}
       run: |
         python n.py
