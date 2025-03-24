@@ -1,3 +1,4 @@
+python -m pip install --upgrade pip
 Flask==3.1.0
 Jinja2==3.1.5
 MarkupSafe==3.0.2
@@ -7,7 +8,7 @@ attrs==25.1.0
 blinker==1.9.0
 certifi==2025.1.31
 charset-normalizer==3.4.1
-googletrans
+googletrans==4.0.0rc1
 click==8.1.8
 frozenlist==1.5.0
 h11==0.9.0
