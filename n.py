@@ -17,7 +17,7 @@ op=[]
 loi=[]                                                                                                                                                                         
 o9i={}                                                                                                                                                                         
 app=Flask(__name__)                                                                                                                                                            
-openai.api_key=os.getenv("chat")
+openai.api_key=os.getenv("CHAT")
 @app.route("/chatgpt",methods=["POST","GET"])                                                                                                                                  
 def chat_with_gpt(model="gpt-4o-mini", temperature=0.7, max_tokens=900):                                                                                                       
     if request.method == "POST":                                                                                                                                               
